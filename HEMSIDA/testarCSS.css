@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 1rem;
+}
+
+.image-h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: salmon;
+    padding: 2rem;
+}
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site-navbar {
+    background-color: whitesmoke;
+    display: flex;
+    position: fixed;
+    gap: 10px;
+    padding: 0.2rem;
+}
+
+.site-navbar a {
+    text-decoration: none;
+}
+
+.site-navbar a:visited {
+    color: black;
+}
+
+.site-navbar a:active {
+    text-decoration: underline;
+}
+
+.image-footer {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.take-me-back {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+  .take-me-back:visited {
+    color: salmon;
+  }
+
+  @media screen and (min-width: 400px) {
+    html {
+        font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    html {
+        font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .media-container {
+        max-width: 200px;
+    }
+  }
